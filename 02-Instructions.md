@@ -7,7 +7,7 @@ La liste des raccourcis VS Code est disponible pour [Windows](https://code.visua
 Pour aller plus vite, nous allons copier du code depuis ce repo, donc je vous conseille de le cloner ou de le télécharger :
 
 ```bash
-git clone ttps://github.com/SoatGroup/techlabs-servicefabric-reliableservices.git
+git clone https://github.com/SoatGroup/techlabs-servicefabric-reliableservices.git
 ```
 
 ## Initialiser la solution
