@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Techlabs Service Fabric by SOAT</title>
+    <style>
+        input[type='submit'],
+        button,
+        [aria-label] {
+            cursor: pointer;
+        }
+
+        table {
+            font-family: Arial, sans-serif;
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: #0066CC;
+            color: white;
+        }
+
+        td {
+            border: 1px solid;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Blogs</h1>
+    <h3>Add Sample</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="sample()">
+        <input type="submit" value="Get sample">
+    </form>
+
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Url</th>
+            <th></th>
+        </tr>
+        <tbody id="blog"></tbody>
+    </table>
+
+    <hr />
+    <table>
+        <tr>
+            <th>Titre</th>
+            <th>Url</th>
+        </tr>
+        <tbody id="posts"></tbody>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="site.js"></script>
+</body>
+
+</html>
